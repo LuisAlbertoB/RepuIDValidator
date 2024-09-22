@@ -1,3 +1,17 @@
+RepuIdValidator.
+    Autómata que valida el identificadores del reclusorio preventivo,
+    para asegurar que complan con el formato establecido:
+
+                REPU-2023-12345-7
+
+    Donde:
+
+            REPU:  Son las siglas de Reclusorio Pubico.
+            2023:  Son 4 digitos que hacen alucion a un año.
+            12345: Son 5 digitos que exiben la seccion del recluso.
+            7:     Es el identificador del recluso.
+            Separado po guiones ("-") entre secciones. 
+
 Propiedades del autómata:
     
     Conjunto de estados:
