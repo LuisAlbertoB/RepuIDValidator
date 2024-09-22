@@ -1,4 +1,3 @@
-# Tabla de transiciones
 tabla = {
     (0, 'R'): 1,
     (1, 'E'): 2,
