@@ -24,8 +24,8 @@ Propiedades del autómata:
         δ:Q×Σ→Q:
             δ(q0,R)=q1         δ(q0,"otro")=qe         δ(q1,E)=q2         δ(q1,"otro")=qe
             δ(q2,P)=q3         δ(q2,"otro")=qe         δ(q3,U)=q4         δ(q3,"otro")=qe
-            δ(q4,-)=q5         δ(q4,"otro")=qe         δ(q5,0-9)=q6       δ(q5,"otro")=qe
-            δ(q6,0-9)=q7       δ(q6,"otro")=qe         δ(q7,0-9)=q8       δ(q7,"otro")=qe
+            δ(q4,-)=q5         δ(q4,"otro")=qe         δ(q5,2)=q6         δ(q5,"otro")=qe
+            δ(q6,0)=q7         δ(q6,"otro")=qe         δ(q7,0-9)=q8       δ(q7,"otro")=qe
             δ(q8,0-9)=q9       δ(q8,"otro")=qe         δ(q9,-)=q10        δ(q9,"otro")=qe
             δ(q10,0-9)=q11     δ(q10,"otro")=qe        δ(q11,0-9)=q12     δ(q11,"otro")=qe
             δ(q12,0-9)=q13     δ(q12,"otro")=qe        δ(q13,0-9)=q14     δ(q13,"otro")=qe

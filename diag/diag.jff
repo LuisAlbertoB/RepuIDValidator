@@ -83,72 +83,7 @@
 		</state>
 		<!--The list of transitions.-->
 		<transition>
-			<from>9</from>
-			<to>10</to>
-			<read>-</read>
-		</transition>
-		<transition>
-			<from>4</from>
-			<to>18</to>
-			<read>otro</read>
-		</transition>
-		<transition>
-			<from>11</from>
-			<to>18</to>
-			<read>otro</read>
-		</transition>
-		<transition>
-			<from>2</from>
-			<to>18</to>
-			<read>otro</read>
-		</transition>
-		<transition>
-			<from>5</from>
-			<to>6</to>
-			<read>(0 - 9)</read>
-		</transition>
-		<transition>
-			<from>12</from>
-			<to>13</to>
-			<read>0-9</read>
-		</transition>
-		<transition>
-			<from>7</from>
-			<to>18</to>
-			<read>otro</read>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>1</to>
-			<read>R</read>
-		</transition>
-		<transition>
-			<from>6</from>
-			<to>7</to>
-			<read>0-9</read>
-		</transition>
-		<transition>
-			<from>6</from>
-			<to>18</to>
-			<read>otro</read>
-		</transition>
-		<transition>
-			<from>14</from>
-			<to>18</to>
-			<read>otro</read>
-		</transition>
-		<transition>
-			<from>9</from>
-			<to>18</to>
-			<read>otro</read>
-		</transition>
-		<transition>
-			<from>5</from>
-			<to>18</to>
-			<read>otro</read>
-		</transition>
-		<transition>
-			<from>12</from>
+			<from>15</from>
 			<to>18</to>
 			<read>otro</read>
 		</transition>
@@ -156,6 +91,21 @@
 			<from>7</from>
 			<to>8</to>
 			<read>0-9</read>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>18</to>
+			<read>otro</read>
+		</transition>
+		<transition>
+			<from>13</from>
+			<to>14</to>
+			<read>0-9</read>
+		</transition>
+		<transition>
+			<from>12</from>
+			<to>18</to>
+			<read>otro</read>
 		</transition>
 		<transition>
 			<from>15</from>
@@ -168,7 +118,87 @@
 			<read>otro</read>
 		</transition>
 		<transition>
-			<from>15</from>
+			<from>3</from>
+			<to>18</to>
+			<read>otro</read>
+		</transition>
+		<transition>
+			<from>11</from>
+			<to>12</to>
+			<read>0-9</read>
+		</transition>
+		<transition>
+			<from>8</from>
+			<to>9</to>
+			<read>0-9</read>
+		</transition>
+		<transition>
+			<from>14</from>
+			<to>15</to>
+			<read>0-9</read>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>6</to>
+			<read>2</read>
+		</transition>
+		<transition>
+			<from>11</from>
+			<to>18</to>
+			<read>otro</read>
+		</transition>
+		<transition>
+			<from>14</from>
+			<to>18</to>
+			<read>otro</read>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>5</to>
+			<read>-</read>
+		</transition>
+		<transition>
+			<from>12</from>
+			<to>13</to>
+			<read>0-9</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>18</to>
+			<read>otro</read>
+		</transition>
+		<transition>
+			<from>16</from>
+			<to>17</to>
+			<read>0-9</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>18</to>
+			<read>otro</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>R</read>
+		</transition>
+		<transition>
+			<from>10</from>
+			<to>18</to>
+			<read>otro</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>4</to>
+			<read>U</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>18</to>
+			<read>otro</read>
+		</transition>
+		<transition>
+			<from>8</from>
 			<to>18</to>
 			<read>otro</read>
 		</transition>
@@ -178,44 +208,34 @@
 			<read>0-9</read>
 		</transition>
 		<transition>
-			<from>8</from>
-			<to>9</to>
-			<read>0-9</read>
-		</transition>
-		<transition>
-			<from>8</from>
-			<to>18</to>
-			<read>otro</read>
-		</transition>
-		<transition>
-			<from>3</from>
-			<to>18</to>
-			<read>otro</read>
-		</transition>
-		<transition>
-			<from>13</from>
-			<to>14</to>
-			<read>0-9</read>
-		</transition>
-		<transition>
-			<from>14</from>
-			<to>15</to>
-			<read>0-9</read>
-		</transition>
-		<transition>
-			<from>4</from>
-			<to>5</to>
-			<read>-</read>
-		</transition>
-		<transition>
-			<from>10</from>
-			<to>18</to>
-			<read>otro</read>
-		</transition>
-		<transition>
 			<from>1</from>
 			<to>2</to>
 			<read>E</read>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>7</to>
+			<read>0</read>
+		</transition>
+		<transition>
+			<from>9</from>
+			<to>18</to>
+			<read>otro</read>
+		</transition>
+		<transition>
+			<from>9</from>
+			<to>10</to>
+			<read>-</read>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>18</to>
+			<read>otro</read>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>18</to>
+			<read>otro</read>
 		</transition>
 		<transition>
 			<from>2</from>
@@ -223,29 +243,9 @@
 			<read>P</read>
 		</transition>
 		<transition>
-			<from>3</from>
-			<to>4</to>
-			<read>U</read>
-		</transition>
-		<transition>
-			<from>16</from>
-			<to>17</to>
-			<read>0-9</read>
-		</transition>
-		<transition>
-			<from>1</from>
+			<from>7</from>
 			<to>18</to>
 			<read>otro</read>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>18</to>
-			<read>otro</read>
-		</transition>
-		<transition>
-			<from>11</from>
-			<to>12</to>
-			<read>0-9</read>
 		</transition>
 	</automaton>
 </structure>
